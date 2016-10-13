@@ -24,7 +24,12 @@ header {
 }
 
 .masthead {
+  position: absolute;
+  width: 100%;
   background-image: url(img/wot-masthead-dark.jpg);
+  background-repeat: no-repeat;
+  background-size: 100vh 100vw;
+  border: 5px solid red;
 }
 
 .masthead h1 small {
@@ -47,6 +52,15 @@ header {
   margin-right: 20%;
   position:relative;
   font-weight: 500;
+}
+
+.masthead h1 span.sub em {
+  color: #ff803a;
+  font-style: normal;
+}
+
+.masthead h1 span.sub i {
+  color: #bdd436;
 }
 
 .button {
