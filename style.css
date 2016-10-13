@@ -1,0 +1,82 @@
+* {
+  font-family: "Oswald";
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  background-color: white;
+  width: auto;
+  height: 150px;
+  border: 1px solid red;
+  display: flex;
+  justify-content: center;
+}
+
+.header-icons {
+  border: 1px solid;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.masthead {
+  background-image: url(img/wot-masthead-dark.jpg);
+}
+
+.masthead h1 small {
+  color: #fff;
+}
+
+.masthead h1 {
+  font-weight: 300;
+  text-transform: uppercase;
+  max-width: 760ps;
+  margin: 0 auto;
+  color: #fff;
+}
+
+.masthead h1 span.sub {
+  font-size: 18px;
+  display: block;
+  text-transform: none;
+  margin-left: 20%;
+  margin-right: 20%;
+  position:relative;
+  font-weight: 500;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}
+
+.learn-more-btn {
+  width: 80%;
+  text-align: center;
+  background-color: #BDD436;
+  border-radius: 50px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.learn-more-btn button {
+  color: white;
+  background-color: BDD436;
+  font-weight: 700;
+  letter-spacing: 1px;
+  padding: 11px 36px;
+}
+
+#hamburger-menu {
+  border: 2px solid;
+}
+
+#top-right-logo {
+  height: 75px;
+  width: 370px;
+}
