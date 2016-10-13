@@ -1,9 +1,18 @@
 * {
   font-family: "Oswald";
+  cursor: default !important;
 }
 
 body {
   margin: 0;
+}
+
+p {
+  margin: 0 0 10px;
+}
+
+a {
+  text-decoration: none;
 }
 
 header {
@@ -24,16 +33,17 @@ header {
 }
 
 .masthead {
-  position: absolute;
   width: 100%;
   background-image: url(img/wot-masthead-dark.jpg);
   background-repeat: no-repeat;
-  background-size: 100vh 100vw;
-  border: 5px solid red;
+  background-size: cover;
+  background-position: center;
+    border: 1px solid red;
 }
 
 .masthead h1 small {
   color: #fff;
+  font-size: 100px;
 }
 
 .masthead h1 {
@@ -45,13 +55,15 @@ header {
 }
 
 .masthead h1 span.sub {
-  font-size: 18px;
+  font-size: 55px;
+  font-family: "Oswald";
   display: block;
   text-transform: none;
   margin-left: 20%;
   margin-right: 20%;
   position:relative;
   font-weight: 500;
+
 }
 
 .masthead h1 span.sub em {
@@ -72,6 +84,7 @@ header {
 .learn-more-btn {
   width: 80%;
   text-align: center;
+  border: 2px solid #BDD436;
   background-color: #BDD436;
   border-radius: 50px;
   padding-left: 15px;
@@ -82,8 +95,118 @@ header {
   color: white;
   background-color: BDD436;
   font-weight: 700;
+  font-size: 45px;
   letter-spacing: 1px;
   padding: 11px 36px;
+}
+
+section {
+  display: block;
+  border: 1px solid blue;
+}
+
+.container-intro-text {
+  background-color: #F0F0F0;
+  margin: 0;
+  border: 1px solid #6A787C;
+}
+
+.intro-text {
+  text-align: center;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.intro-text p {
+  font-weight: 400;
+  font-size: 24px;
+  color: #6A787C;
+  line-height: 90px;
+  margin-bottom: 0px;
+  padding-left: 15%;
+  padding-right: 15%;
+  font-family: "Oswald" !important;
+}
+
+.image {
+  width: 75px;
+  height: 75px;
+  background-image: url("./img/sprite_home.png");
+  background-position: -22px -113px;
+}
+
+.title-special {
+  text-transform: uppercase;
+  font-size: 117px;
+  font-weight: 300;
+  margin-top: 36px;
+}
+
+.title-special em {
+  font-weight: bold;
+  color: #bdd436;
+  font-style: normal;
+}
+
+.learn-more {
+  text-align: center;
+  border: 1px solid red;
+}
+
+.ps-light {
+  font-size: 50px;
+  line-height: 65px;
+  font-weight: 400;
+  min-height: 300px;
+  font-family: "Open Sans";
+  color: #97A2A7;
+}
+
+.light-img {
+  width: 131px;
+  height: 160px;
+  background-image: url("./img/sprite_home.png") no-repeat;
+  background-position: -311px 100px;
+  margin: 0 auto 27px auto;
+  border: 1px solid blue;
+}
+
+.call-to-action {
+  color: #bdd436;
+}
+
+.arrow-img {
+  height: 50px;
+  width: 40px;
+  background-image: url("./img/sprite_home.png");
+  background-position: -46px -292px;
+  margin: 20px auto;
+  border: 1px solid blue;
+}
+
+.wavy-arrow-img {
+  width: 131px;
+  height: 160px;
+  background-image: url("./img/sprite_home.png") no-repeat;
+  background-position: -227px -91px;
+  margin: 0 auto 27px auto;
+  border: 1px solid blue;
+}
+
+.ps-arrow {
+  font-size: 50px;
+  line-height: 65px;
+  font-weight: 400;
+  min-height: 300px;
+  font-family: "Open Sans";
+  color: #97A2A7;
+}
+.team {
+  color: #bdd436;
+  text-decoration: none;
 }
 
 #hamburger-menu {
@@ -93,4 +216,16 @@ header {
 #top-right-logo {
   height: 75px;
   width: 370px;
+}
+
+@media (min-width: 800px){
+  .learn-more-btn {
+    width: 50%;
+    text-align: center;
+    border: 2px solid #BDD436;
+    background-color: #BDD436;
+    border-radius: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
 }
