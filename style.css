@@ -38,7 +38,6 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-    border: 1px solid red;
 }
 
 .masthead h1 small {
@@ -153,7 +152,6 @@ section {
 
 .learn-more {
   text-align: center;
-  border: 1px solid red;
 }
 
 .ps-light {
@@ -207,6 +205,36 @@ section {
 .team {
   color: #bdd436;
   text-decoration: none;
+  font-family: "Open Sans";
+}
+
+.link-arrow {
+  color: #bdd436;
+  text-decoration: none;
+}
+
+.power-img {
+  width: 131px;
+  height: 160px;
+  background-image: url("./img/sprite_home.png") no-repeat;
+  background-position: -119px -100px;
+  border: 1px solid blue;
+  margin: 0 auto 27px auto;
+}
+
+.ps-power {
+  font-size: 50px;
+  line-height: 65px;
+  font-weight: 400;
+  min-height: 300px;
+  font-family: "Open Sans";
+  color: #97A2A7;
+}
+
+.our-work {
+  color: #bdd436;
+  text-decoration: none;
+  font-family: "Open Sans";
 }
 
 #hamburger-menu {
@@ -218,7 +246,7 @@ section {
   width: 370px;
 }
 
-@media (min-width: 800px){
+@media (min-width: 990px){
   .learn-more-btn {
     width: 50%;
     text-align: center;
