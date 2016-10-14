@@ -10,10 +10,6 @@ a {
   text-decoration: none;
 }
 
-img {
-  vertical-align: middle;
-}
-
 header {
   background-color: white;
   width: auto;
@@ -100,7 +96,6 @@ header {
 
 section {
   display: block;
-  border: 1px solid blue;
 }
 
 .container-intro-text {
@@ -245,14 +240,21 @@ section {
   flex-direction: column;
 }
 
+.how-can-we-help p {
+  font-size: 69px;
+}
+
 .box {
   width: 80%;
   height: auto;
+  margin-top: 7%;
   background-color: white;
-  padding: 10px;
-  margin: 10px;
   font-family: 'Open Sans' !important;
   font-weight: 500 !important;
+}
+
+.how-can-we-help: last-child {
+  margin-bottom: 7%;
 }
 
 .subtitle-special {
@@ -286,17 +288,15 @@ section {
 .companies {
   text-align: center;
   display: flex;
+  overflow: hidden;
+  position: relative;
 }
 
 .companies .box {
-  margin: -1 auto;
+  margin: 0 auto;
   height: auto;
-  width: auto;
+  max-width: 100%;
   display: block;
-  border: 0 auto;
-  padding: 0 auto;
-  display: flex;
-  vertical-align: 0px;
 }
 
 #hamburger-menu {
